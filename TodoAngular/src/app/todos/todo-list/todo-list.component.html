@@ -1,0 +1,15 @@
+<table class="table table-sm table-hover">
+  <tr *ngFor="let todo of todoService.todoList">
+    <td>{{todo.Name}}</td>
+    <td>Completada {{todo.IsComplete?'SI':'NO'}}</td>
+    <!-- {{todo.IsComplete}} -->
+    <td>
+      <a class="btn" title="Editar" (click)="showForEdit(todo)">
+        <i class="fa fa-pencil-square-o"></i>
+      </a>
+      <a class="btn text-danger" title="Borrar" (click)="onDelete(todo.Id)">
+          <i class="fa fa-trash-o"></i>
+        </a>
+      </td>
+  </tr>
+</table>

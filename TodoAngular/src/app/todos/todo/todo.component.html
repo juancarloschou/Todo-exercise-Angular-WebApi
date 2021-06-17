@@ -1,0 +1,22 @@
+<form #todoForm="ngForm" class="emp-form" (ngSubmit)="onSubmit(todoForm)">
+<input type="hidden" name="Id" #Id="ngModel" [(ngModel)]="todoService.selectedTodo.Id"/>
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <input class="form-control" name="Name" #Name="ngModel" [(ngModel)]="todoService.selectedTodo.Name" placeholder="Nombre" required />
+    <div class="validation-error" *ngIf="Name.invalid && Name.touched">Este campo es obligatorio</div>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="IsComplete" style="display:inline-block">Completada</label>
+    <input type="checkbox" class="form-control" style="height: 30px; width: 30px; display:inline-block" id="IsComplete" name="IsComplete" #IsComplete="ngModel" [(ngModel)]="todoService.selectedTodo.IsComplete" />
+  </div>
+</div>
+<div class="form-row">
+  <div class="form-group col-md-8">
+    <button [disabled]="!todoForm.valid" class="btn btn-lg btn-block btn-info"><i class="fa fa-floppy-o"></i> Guardar</button>
+  </div>
+  <div class="form-group col-md-4">
+    <input type="button" class="btn btn-lg btn-block btn-secondary" (click)="resetForm(todoForm)" value="Limpiar" />
+    <!-- <i class="fa fa-repeat"></i> -->
+  </div>
+</div>
+</form>

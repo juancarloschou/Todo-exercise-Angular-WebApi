@@ -1,0 +1,13 @@
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.deps.json
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.json
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.dev.json
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.dll
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.pdb
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csprojResolveAssemblyReference.cache
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csproj.CoreCompileInputs.cache
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfoInputs.cache
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfo.cs
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.dll
+D:\programacion\ASP.NET\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.pdb
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\x86\e_sqlite3.dll
+D:\programacion\ASP.NET\TodoApi\bin\Debug\netcoreapp2.0\x64\e_sqlite3.dll
